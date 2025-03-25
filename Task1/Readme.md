@@ -18,6 +18,10 @@
 
 ---
 
-## Preview
+## Desktop Preview
 ![Portfolio Website Preview](Assets/Desktop-View.png)
+
+---
+
+## Mobile Preview
 ![Portfolio Website Preview](Assets/Mobile-View.png)
