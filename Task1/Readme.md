@@ -19,4 +19,5 @@
 ---
 
 ## Preview
-![Portfolio Website Preview](/Users/manosundar/Desktop/HTML&CSS/Task1/Assets/Desktop-View.png)
+![Portfolio Website Preview](Assets/Desktop-View.png)
+![Portfolio Website Preview](Assets/Mobile-View.png)
