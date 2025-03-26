@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.tabs {
+    width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tab-label {
+    display: block;
+    padding: 10px;
+    background: #ddd;
+    margin-bottom: 5px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.tab-label:hover {
+    background: #bbb;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+.tab-content {
+    display: none;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    transition: opacity 0.3s ease-in-out;
+}
+
+input[type="radio"]:checked + .tab-label {
+    background: #007BFF;
+    color: white;
+}
+
+input[type="radio"]:checked + .tab-label + .tab-content {
+    display: block;
+    opacity: 1;
+}
